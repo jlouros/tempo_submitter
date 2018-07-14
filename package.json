@@ -1,0 +1,25 @@
+{
+  "name": "tempo-automation",
+  "version": "0.0.1",
+  "description": "automation tasks",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "ts-node": "ts-node",
+    "tslint": "tslint"
+  },
+  "author": "Joao Louros",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.1.2",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.22",
+    "@types/node-fetch": "^2.1.1",
+    "@types/yargs": "^11.0.0",
+    "tslint": "^5.10.0"
+  }
+}
